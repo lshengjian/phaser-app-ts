@@ -1,0 +1,27 @@
+{
+  "name": "phaser3-typescript-demo",
+  "version": "1.0.0",
+  "description": "Phaser 3 TypeScript Starter",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lshengjian/phaser-app-ts.git"
+  },
+  "author": "Alex Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lshengjian/phaser-app-ts/issues"
+  },
+  "homepage": "https://github.com/lshengjian/phaser-app-ts#readme",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^4.0.0",
+    "phaser": "^3.55.2",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.7"
+  }
+}

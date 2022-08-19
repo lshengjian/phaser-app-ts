@@ -2,11 +2,14 @@
   "name": "phaser3-typescript-demo",
   "version": "1.0.0",
   "description": "Phaser 3 TypeScript Starter",
-  "main": "dist/index.js",
+  "main": "src/game.ts",
+  "homepage": "https://lshengjian.github.io/phaser-app-ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",

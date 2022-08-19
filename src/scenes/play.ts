@@ -5,10 +5,7 @@ import data from '../data';
 import CreditText from '../sprites/creditText';
 import StatusBar from '../sprites/statusBar';
 import ResetButton from '../sprites/resetButton';
-//  type RecordCoord = {
-//   cat: {i:number, j:number}[],
-//   wall: {i:number, j:number}[],
-// };
+
 
 enum GameState {
   PLAYING = "playing",
@@ -37,7 +34,7 @@ export default class PlayScene extends Phaser.Scene {
   }
 
   preload(): void {
-    this.load.pack('pack1', '/assets/pack.json', 'cat');
+    this.load.pack('pack1', './assets/pack.json', 'cat');
   }
 
   init(): void {

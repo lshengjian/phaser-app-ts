@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/lshengjian/phaser-app-ts/issues"
   },
-  "homepage": "https://github.com/lshengjian/phaser-app-ts#readme",
+  
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^4.0.0",
